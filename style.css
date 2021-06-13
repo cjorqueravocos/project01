@@ -14,6 +14,7 @@ img {
 .navbar {
     background-color: #000;
     color: #fff;
+    padding: 0;
 }
 .fab, .fas {
      color: #fff;
@@ -23,5 +24,4 @@ img {
     background-color: #eac13d;
     display: block;
     padding: 10px;
-}
 }
