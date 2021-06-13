@@ -15,13 +15,24 @@ img {
     background-color: #000;
     color: #fff;
     padding: 0;
+    box-shadow: 1px 1px 5px 0px rgb(67, 67, 67);
 }
 .fab, .fas {
      color: #fff;
      font-size: 30px;
+     margin-right: 10px;
 }
 .navbar-nav{
     background-color: #eac13d;
     display: block;
     padding: 10px;
+}
+.serv-tecnico {
+    text-align: center;
+    font-weight: 600;
+    color: black;
+}
+.nav-link {
+    color: black;
+    font-weight: 500;
 }
