@@ -36,3 +36,7 @@ img {
     color: black;
     font-weight: 500;
 }
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
