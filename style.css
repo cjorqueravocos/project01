@@ -49,3 +49,15 @@
     padding-top: 180px;
     padding-bottom: 180px;
 }
+
+.container-img {
+    background: url("./img/automotor01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    color: white;
+    display: grid;
+    place-items: center;
+}
