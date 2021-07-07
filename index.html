@@ -36,69 +36,74 @@
     />
   </head>
   <body>
-    <nav
-      class="
-        nav-normal
-        navbar navbar-expand-sm
-        sticky-top
+    <header>
+      <div class="top-bar">
+        <i class="fas fa-phone"></i>
+        <a href="tel:+549351464797"><span>3541 4646797</span></a>
+        <span class="mx-2">|</span>
+        <a href="https://wa.me/543514646797"><span>+54 9 351 4646797</span></a>
+        <i class="fab fa-whatsapp"></i>
+      </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <div class="navbar-brand" >
+          <a href="#" >
+            <img src="img/logo_fondoblanco.png" alt="Logo Alta Gama" class="logo-img">
+          </a>
+        </div>
 
-      "
-    >
-      <!-- Brand/logo -->
-      <a class="navbar-brand justify-content-center" href="#"
-        ><div class="img-container-logo">
-          <img
-            src="./img/Logo_fondonegro.png"
-            alt="Logo Alta Gama Cerrajeria"
-          /></div
-      ></a>
-
-      <!-- Links -->
-      <ul class="navbar-nav justify-content-end">
-        <div class="serv-tecnico">
-        <li class="nav-item">Servicio Técnico 24hrs</li>
-    </div>
-        <li class="nav-item">
-          <a target="_blank" class="nav-link" href="tel:+5493514646797"
-            ><i class="fas fa-phone-volume"></i>351 4646797</a
-          >
-        </li>
-        <li class="nav-item">
-          <a target="_blank" class="nav-link" href="https://wa.me/5493514646797"
-            ><i class="fab fa-whatsapp"></i>+54 9 351 4646797</a
-          >
-        </li>
-      </ul>
-    </nav>
-    <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-        </ul>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/automotor01.png" alt="Los Angeles" width="1100" height="500">
-            <div class="carousel-caption">
-              <h3>Servicio de emergencias</h3>
-              <p>Comunicate con nosotros las 24 horas</p>
-            </div>   
-          </div>
-          <div class="carousel-item">
-            <div class="container-img">
-              <h1>Hola</h1>
-            </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Menú</a>
+            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link" href="#">Contacto</a>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
       </div>
+    </nav>
+  </header>
 
-      <div class="container-img">
-        <h1>Hola</h1>
-      </div>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+    </ul>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container-img-1">
+        <div class="carousel-caption">
+          <h3>Cerrajería del automotor</h3>
+          <p>Comunicate con nosotros las 24 horas</p>
+        </div>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <div class="container-img-2">
+        <div class="carousel-caption">
+          <h3>Reparación y colocación de levanta cristales eléctricos</h3>
+          <p>Consulta presupuesto para tu auto</p>
+        </div>
+      </div> 
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

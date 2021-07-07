@@ -4,30 +4,45 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-.img-container-logo {
-    width: 150px;
-    height: auto;
+
+img {
+    max-width: 100%;
 }
-.img-container-logo img {
-    width: 100%;
+
+.top-bar {
+background-color: #000;
+color: #fff;
+display:flex;
+justify-content: center;
+font-size:14px;
+padding: 5px;
+text-decoration: none;
 }
-.navbar {
-    background-color: #000;
-    color: #fff;
-    padding: 0;
-    box-shadow: 1px 1px 5px 0px rgb(19, 19, 19);
+
+.top-bar a {
+    color: white;
 }
-.fab, .fas {
+
+.navbar-brand {
+    max-width: 150px;
+}
+
+.navbar-toggler {
+    color: black;
+}
+
+.fas {
      color: #fff;
-     font-size: 30px;
+     font-size: 15px;
      margin-right: 10px;
+     align-self: center;
 }
-.navbar-nav{
-    background-color: #eac13d;
-    display: block;
-    padding: 10px;
+.fab {
+    margin-left: 10px;
+    font-size: 20px;
 }
-.serv-tecnico {
+
+/* .serv-tecnico {
     text-align: center;
     font-weight: 600;
     color: black;
@@ -39,18 +54,34 @@
 .carousel-item {
     height: 80vh;
     object-fit: cover;
+} */
+
+.container-img-1{
+    background: url("img/automotor02.png");
+    background-position: center center;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: 80vh;
 }
-.carousel-inner img{
-    width: 150%;
-    height: 100%;
+
+.container-img-2{
+    background: url("img/automotor01.png");
+    background-position: center center;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: 80vh;
 }
+
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.666);
     padding-top: 180px;
     padding-bottom: 180px;
-}
+    margin-bottom: 40px;
 
-.container-img {
+/* .container-img {
     background: url("./img/automotor01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,4 +91,4 @@
     color: white;
     display: grid;
     place-items: center;
-}
+}  */
