@@ -136,5 +136,14 @@ text-decoration: none;
 .caption h3 {
     font-size: 18px;
     }
-
+.caption p {
+    font-size: 14px;
+    }
+.services{
+    height: 1200px;
+    }
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    }
 }
