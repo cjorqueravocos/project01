@@ -74,21 +74,67 @@ text-decoration: none;
     height: 80vh;
 }
 
-
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.666);
-    padding-top: 180px;
-    padding-bottom: 180px;
-    margin-bottom: 40px;
-
-/* .container-img {
-    background: url("./img/automotor01.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    width: 100%;
-    color: white;
+    height: 93%;
     display: grid;
     place-items: center;
-}  */
+    align-content: center;
+    padding: 20px;
+   /*  width: 100%; */
+}
+
+
+.service-title {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
+}
+
+.services {
+    background-color:rgb(234, 193, 61);
+    width: 100%;
+    height: 100vh;
+    
+}
+.cards-container {
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    margin: 10px;
+    background-color: #fff;
+    border:none;
+    height: 20rem;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 250px;
+}
+
+.card-body {
+    margin: auto;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.logo-footer img{
+    height: 50px;
+}
+ 
+@media (max-width: 426px) {
+.caption h3 {
+    font-size: 18px;
+    }
+
+}
