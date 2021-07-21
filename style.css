@@ -101,7 +101,7 @@ text-decoration: none;
 .cards-container {
     position: relative;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     margin-bottom: 40px;
 }
@@ -122,16 +122,38 @@ text-decoration: none;
     margin: auto;
 }
 
-.footer {
+footer {
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
 }
 
+.redes i {
+    color: #cac7c7;
+}
 .logo-footer img{
     height: 50px;
+    margin-top: 10px;
 }
- 
+
+@media (max-width: 700px) {
+.card {
+    height: 15rem;
+    }
+.card-img-top {
+    height: 150px;
+    }
+.card-body {
+    text-align: center;
+}
+}
 @media (max-width: 426px) {
 .caption h3 {
     font-size: 18px;
@@ -142,6 +164,12 @@ text-decoration: none;
 .services{
     height: 1200px;
     }
+.card {
+    width: 
+}
+.card-img-top {
+    width: fit-content;
+}
 .cards-container {
     display: flex;
     flex-direction: column;
