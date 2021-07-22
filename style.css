@@ -95,6 +95,7 @@ text-decoration: none;
 
 .card {
     min-height: 150px;
+    height: 400px;
 }
 
 footer {
